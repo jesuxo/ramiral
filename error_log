@@ -1,0 +1,2 @@
+[29-May-2026 15:09:11 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.3.0". You are running 8.2.31. in /home1/celishos/public_html/ramiral/vendor/composer/platform_check.php on line 26
+[29-May-2026 15:09:15 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.3.0". You are running 8.2.31. in /home1/celishos/public_html/ramiral/vendor/composer/platform_check.php on line 26

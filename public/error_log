@@ -1,0 +1,289 @@
+[28-May-2026 14:45:25 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:45:25 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:45:25 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:45:47 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:45:47 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:45:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:25 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:25 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:25 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:28 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:28 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:28 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:28 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:28 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:28 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:29 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:29 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 14:50:29 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:08:38 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:08:38 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:08:38 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:08:39 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:08:39 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:08:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:34 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:34 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:34 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:50 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:50 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:50 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:58 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:58 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:09:58 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:10:01 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:10:01 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:10:01 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:10:47 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:10:47 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:10:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:18 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:18 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:18 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:20 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:20 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:20 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:45 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:45 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:11:45 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:12:00 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:12:00 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:12:00 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:12:43 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:12:43 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:12:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:23:54 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:23:54 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:23:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:23:56 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:23:56 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:23:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:26:19 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:26:19 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:26:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:26:20 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:26:20 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:26:20 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:32:10 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:32:10 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:32:10 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:32:10 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:32:10 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:32:10 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:38:23 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:38:23 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:38:23 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:38:26 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:38:26 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 15:38:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:39 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:39 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:39 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:39 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:40 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:40 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:00:40 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:05:05 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:05:05 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:05:05 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:05:05 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:05:05 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:05:05 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:21 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:21 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:21 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:21 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:23 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:23 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:23 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:23 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:23 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 16:34:23 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:03:40 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:03:40 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:03:40 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:04:30 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:04:30 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:04:30 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:13:57 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:13:57 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:13:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:13:57 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:13:57 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:13:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:19:00 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:19:00 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:19:00 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:19:00 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:19:00 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:19:00 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:25:23 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:25:23 America/Boise] PHP Warning:  require(/home1/celishos/public_html/ramiral/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:25:23 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/celishos/public_html/ramiral/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/celishos/public_html/ramiral/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/celishos/public_html/ramiral/public/index.php on line 34
+[28-May-2026 17:26:13 America/Boise] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.3.0". You are running 8.2.31. in /home1/celishos/public_html/ramiral/vendor/composer/platform_check.php on line 26
