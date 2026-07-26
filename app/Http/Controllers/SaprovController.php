@@ -49,7 +49,7 @@ class SaprovController extends Controller
         $proveedores   = $request->proveedores;
         $proveedores   = json_decode($proveedores);
 
-        if(isset($proveedores))
+        if(isset($proveedores) and is_array($proveedores) and count($proveedores) > 0)
             foreach ($proveedores as $proveedor){
 
                 $aux = Saprov::where(['codprov' => $proveedor->codprov])->first();
