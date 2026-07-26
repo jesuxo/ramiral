@@ -11,6 +11,7 @@ use App\Http\Controllers\SaacxcController;
 use App\Http\Controllers\SaprodController;
 use App\Http\Controllers\SafactController;
 use App\Http\Controllers\CwtransferenciasController;
+use App\Http\Controllers\SaprovController;
 use App\Http\Controllers\ImagenController;
 use App\Http\Controllers\UserSucursalController;
 use Illuminate\Support\Facades\Route;
@@ -52,7 +53,14 @@ Route::get('/actualizar/agregados',  [App\Http\Controllers\SiteController::class
 //Route::get('/abrir/lista',  [App\Http\Controllers\ComprasController::class, 'abrirlista']  )->name('abrir.lista');
 Route::post('/update/csrf',  [App\Http\Controllers\SiteController::class, 'tokencsrf'] )->name('update.csrf');
 
+Route::match(['get','post'],'/reporte/compra', [SacompController::class, 'reportecompra'])->name('reportecompra');
+Route::post('/compras/documento-ajax', [SacompController::class, 'documentoAjax'])->name('compras.documento-ajax');
 
+Route::resource('compras', SacompController::class);
+Route::controller(SacompController::class)->group(function () {
+    Route::get('compra/{id}', 'documentoSacomp');
+    Route::get('compra/seriales/{id}', 'documentoSerialesSacomp');
+});
 
 Route::get('/login', function () {
     return view('auth.login');
@@ -196,6 +204,27 @@ Route::middleware(['check.admin'])->group(function () {
     });
 
 
+    Route::get ('/proveedores/debug/{codprov}/{codprod}', [SaprovController::class, 'debug'])->name('proveedores.debug');
+    Route::post('/proveedores/buscarPredictivo', [SaprovController::class, 'buscarPredictivo'])->name('proveedores.buscarPredictivo');
+    Route::get ('/proveedores/{codprov}/productos-panel', [SaprovController::class, 'productosPanel'])->name('proveedores.productos-panel');
+    Route::post('/proveedores/{codprov}/productos-panel', [SaprovController::class, 'productosPanel'])->name('proveedores.productos-panel.post');
+    Route::post('/proveedores/producto/quick-update', [SaprovController::class, 'quickUpdateProducto'])
+        ->name('proveedores.producto.quick-update');
+    Route::get('proveedores/{codprov}/cuentas-por-pagar', [SaprovController::class, 'getCuentasPorPagar'])
+        ->name('proveedores.cuentas-por-pagar');
+
+    Route::get('proveedores/cuentas-por-pagar/resumen-general', [SaprovController::class, 'getResumenGeneralCuentasPorPagar'])
+        ->name('proveedores.cuentas-por-pagar.resumen-general');
+
+    Route::controller(SaprovController::class)->group(function () {
+        Route::get ('saprov/json', 'json');
+        Route::match(['get','post'],'/proveedores/{codprov?}/{tab?}', 'index')->name('proveedores.index');
+        Route::post('proveedoresupdate', 'proveedoresupdate')->name('proveedoresupdate');
+        Route::post('/proveedores/marcar-pagado', 'marcarPagado')->name('proveedores.marcar-pagado');
+    });
+
+    Route::get('proveedores/pagos/pendientes', [SaprovController::class, 'pagosPendientes'])->name('proveedores.pagos-pendientes');
+    Route::get('proveedores-json', [SaprovController::class, 'json'])->name('proveedores.json');
 
     Route::resource('transferencias', CwtransferenciasController::class);
     Route::controller( CwtransferenciasController::class)->group(function () {

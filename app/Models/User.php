@@ -3,13 +3,12 @@
 
 namespace App\Models;
 
-
-
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Log; // Agregar para logging opcional
 use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
 
@@ -44,27 +43,42 @@ class User extends Authenticatable
 
     /**
      * Obtener las sucursales del usuario filtradas por la comercial actual
+     * CORREGIDA: Maneja correctamente cuando no hay sucursales
      */
     public function getSucursalesComercialActual()
     {
         $comercialId = session('comercialid');
 
+        // Obtener todas las sucursales del usuario
+        $todasSucursales = $this->sucursales()->with('comercial')->orderBy('id')->get();
+
+        // Si no tiene sucursales, retornar colección vacía
+        if ($todasSucursales->isEmpty()) {
+            return collect();
+        }
+
+        // Si no hay comercial en sesión, obtener de la primera sucursal
         if (!$comercialId) {
-            // Si no hay comercial en sesión, obtener la primera sucursal
-            $primeraSucursal = $this->sucursales()->orderBy('id')->get();
+            $primeraSucursal = $todasSucursales->first();
+
+            // Verificar si la sucursal tiene relación comercial
             if ($primeraSucursal && $primeraSucursal->fk_comercial) {
                 $comercialId = $primeraSucursal->fk_comercial;
                 Session::put('comercialid', $comercialId);
-                Session::put('comercialdata', $primeraSucursal->comercial);
+
+                if ($primeraSucursal->comercial) {
+                    Session::put('comercialdata', $primeraSucursal->comercial);
+                }
             } else {
-                return collect(); // Retorna colección vacía
+                // Si la primera sucursal no tiene comercial asociado
+                return $todasSucursales; // Retorna todas las sucursales sin filtrar
             }
         }
 
-        $sucus  = $this->sucursales()
-            ->where('fk_comercial', $comercialId)
-            ->orderBy('id')
-            ->get();
+        // Filtrar sucursales por el comercial actual
+        $sucus = $todasSucursales->filter(function($sucursal) use ($comercialId) {
+            return $sucursal->fk_comercial == $comercialId;
+        });
 
         return $sucus;
     }
@@ -79,10 +93,18 @@ class User extends Authenticatable
 
     /**
      * Obtener los IDs de las sucursales del comercial actual
+     * CORREGIDA: Maneja cuando no hay sucursales
      */
     public function getSucursalesIdsComercialActual()
     {
-        return $this->getSucursalesComercialActual()->pluck('id')->toArray();
+        $sucursales = $this->getSucursalesComercialActual();
+
+        // Si es null o colección vacía, retornar array vacío
+        if (!$sucursales || $sucursales->isEmpty()) {
+            return [];
+        }
+
+        return $sucursales->pluck('id')->toArray();
     }
 
     /**
