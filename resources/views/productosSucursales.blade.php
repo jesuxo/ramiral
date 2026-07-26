@@ -83,75 +83,87 @@
         }
     </style>
 
-    <form  method="post" name="form1" id="form1" action="/ventas/productos/sucursales">
-        <div class="row">
-            <div class="col-md-12 mb-3">
-                <h4 class="text-center">
-                    REPORTE DE UNIDADES VENDIDAS
-                    @if($fecha1 ?? '')
-                        <small class="text-muted">DESDE {{$fecha1}} HASTA {{$fecha2}}</small>
-                    @endif
-                </h4>
-            </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="card-title mb-0"> <i class="bi bi-diagram-3 me-2"></i>Ventas de productos por sucursales</h4>
+                    <p class="text-white-50 mb-0 small">
+                        @if($fecha1 ?? '')
+                            DESDE {{$fecha1}} HASTA {{$fecha2}}
+                        @endif </p>
+                </div>
+                <div class="card-body   ">
 
-            <div class="col-md-2 mb-2">
-                <label class="form-label">Sucursal</label>
-                <select class="form-select" onChange="$('#form1').submit()" id="idsucu" name="fksucursal">
-                    <option value="" {{($fksucursal=='' or $fksucursal==0)?'selected':''}}>Seleccionar Sucursal</option>
-                    @foreach($allsucursales as $sucu)
-                        <option value="{{$sucu->id}}" {{($sucu->id == $fksucursal)?'selected':''}}>
-                            {{ $sucu->descrip }}
-                        </option>
-                    @endforeach
-                </select>
-            </div>
+                    <form  method="post" name="form1" id="form1" action="/ventas/productos/sucursales">
+                        <div class="row">
 
-            <div class="col-md-2 mb-2">
-                <label class="form-label">Categoría</label>
-                <select class="form-select" onChange="$('#form1').submit()" name="codinst">
-                    <option value="" {{($codinst=='' or $codinst==0)?'selected':''}}>Todas las Categorías</option>
-                    @foreach($instancias as $instancia)
-                        <option value="{{$instancia->codinst}}" {{($instancia->codinst == $codinst)?'selected':''}}>
-                            {{ str_repeat('--', $instancia->nivel-1) }} {{ $instancia->descrip }}
-                        </option>
-                    @endforeach
-                </select>
-            </div>
+                            <div class="col-md-2 mb-2">
+                                <label class="form-label">Sucursal</label>
+                                <select class="form-select" onChange="$('#form1').submit()" id="idsucu" name="fksucursal">
+                                    <option value="" {{($fksucursal=='' or $fksucursal==0)?'selected':''}}>Seleccionar Sucursal</option>
+                                    @foreach($allsucursales as $sucu)
+                                        <option value="{{$sucu->id}}" {{($sucu->id == $fksucursal)?'selected':''}}>
+                                            {{ $sucu->descrip }}
+                                        </option>
+                                    @endforeach
+                                </select>
+                            </div>
 
-            <div class="col-md-3 mb-2">
-                <label class="form-label">Período</label>
-                <input type="text" class="form-control" data-provider="flatpickr"
-                       data-range-date="true" data-date-format="d/m/Y"
-                       placeholder="Seleccionar fechas" name="fechasreport"
-                       readonly="readonly" value="{{$fechasreport}}">
-            </div>
+                            <div class="col-md-2 mb-2">
+                                <label class="form-label">Categoría</label>
+                                <select class="form-select" onChange="$('#form1').submit()" name="codinst">
+                                    <option value="" {{($codinst=='' or $codinst==0)?'selected':''}}>Todas las Categorías</option>
+                                    @foreach($instancias as $instancia)
+                                        <option value="{{$instancia->codinst}}" {{($instancia->codinst == $codinst)?'selected':''}}>
+                                            {{ str_repeat('--', $instancia->nivel-1) }} {{ $instancia->descrip }}
+                                        </option>
+                                    @endforeach
+                                </select>
+                            </div>
 
-            <div class="col-md-3 mb-2">
-                <label class="form-label">Comparar con</label>
-                <div class="input-group">
-                    <input type="text" class="form-control" data-provider="flatpickr"
-                           data-range-date="true" data-date-format="d/m/Y"
-                           id="fechasreport2" name="fechasreport2" readonly="readonly"
-                           value="{{$fechasreport2 ?? ''}}" placeholder="Opcional">
-                    <button class="btn btn-primary" type="submit">
-                        <i class="fas fa-search"></i> Consultar
-                    </button>
+                            <div class="col-md-3 mb-2">
+                                <label class="form-label">Período</label>
+                                <input type="text" class="form-control" data-provider="flatpickr"
+                                       data-range-date="true" data-date-format="d/m/Y"
+                                       placeholder="Seleccionar fechas" name="fechasreport"
+                                       readonly="readonly" value="{{$fechasreport}}">
+                            </div>
+
+                            <div class="col-md-3 mb-2">
+                                <label class="form-label">Comparar con</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" data-provider="flatpickr"
+                                           data-range-date="true" data-date-format="d/m/Y"
+                                           id="fechasreport2" name="fechasreport2" readonly="readonly"
+                                           value="{{$fechasreport2 ?? ''}}" placeholder="Opcional">
+                                    <button class="btn btn-primary" type="submit">
+                                        <i class="fas fa-search"></i> Consultar
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2 mb-2">
+                                <label class="form-label">Existencia Actual</label>
+                                <select class="form-select" onChange="$('#form1').submit()" name="existenciaact">
+                                    <option value="si" {{( $existenciaact == 'si')?'selected' : ''}}>Si</option>
+                                    <option value="no" {{( $existenciaact == 'no')?'selected' : ''}}>NO</option>
+                                </select>
+                            </div>
+
+                            @csrf
+                            @method('POST')
+                        </div>
+
+                    </form>
+
+
                 </div>
             </div>
-
-            <div class="col-md-2 mb-2">
-                <label class="form-label">Existencia Actual</label>
-                <select class="form-select" onChange="$('#form1').submit()" name="existenciaact">
-                    <option value="si" {{( $existenciaact == 'si')?'selected' : ''}}>Si</option>
-                    <option value="no" {{( $existenciaact == 'no')?'selected' : ''}}>NO</option>
-                </select>
-            </div>
-
-            @csrf
-            @method('POST')
         </div>
+    </div>
 
-    </form>
+
     <div class="row">
 
         <div class="col-md-12 ">
@@ -231,11 +243,11 @@
                                 @endif
                                 @if($existenciaact == 'si')
                                     @php
-                                        $ttexisten    += (isset($productos['existen']))?$productos['existen']:0;
-                                        $subttexisten += (isset($productos['existen']))?$productos['existen']:0;
+                                        $ttexisten    +=  (isset($productos['existen']))?$productos['existen']:0;
+                                        $subttexisten +=  (isset($productos['existen']))?$productos['existen']:0;
                                     @endphp
                                     <td align="center" class="tdline"  > </td>
-                                    <td align="center" class="tdline"  >{{(isset($productos['existen']))?$productos['existen']:'---'}}</td>
+                                    <td align="center" class="tdline"  >{{ (isset($productos['existen']))?$productos['existen']:'--'}}</td>
                                 @endif
                             </tr>
                             @php    $n++; @endphp

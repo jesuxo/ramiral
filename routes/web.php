@@ -7,6 +7,7 @@ use App\Http\Controllers\PermissionController;
 use App\Http\Controllers\SavendController;
 use App\Http\Controllers\VehiculoController;
 use App\Http\Controllers\ReporteProximosMantenimientosController;
+use App\Http\Controllers\SaacxcController;
 use App\Http\Controllers\SaprodController;
 use App\Http\Controllers\SafactController;
 use App\Http\Controllers\CwtransferenciasController;
@@ -282,9 +283,12 @@ Route::middleware(['check.admin'])->group(function () {
         Route::get('sadepo/json', 'json');
     });
 
-    Route::controller(\App\Http\Controllers\SaacxcController::class)->group(function () {
-        Route::match(['get','post'],'cxc/{id?}', 'saacxc');
+    Route::controller(SaacxcController::class)->group(function () {
+        Route::match(['get','post'],'cxc/{id?}', 'saacxc')->name('saacxc');
         Route::post('/cxclist', 'cxclist');
+        Route::post('/cxcabonarweb', 'cxcabonarweb');
+        Route::post('/cxc/clientes-por-sucursal', 'clientesPorSucursal');
+        Route::post('/cxcdescuento',  'aplicarDescuento')->name('cxcdescuento');
     });
 
     // routes/web.php - dentro del grupo auth

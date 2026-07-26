@@ -21,7 +21,7 @@ class SiteController extends Controller
     }
 
     public function webhooks(){
- 
+
     }
 
     public function panelclientes(){
