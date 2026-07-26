@@ -431,7 +431,6 @@
                                     <th class="text-center">  Facturas</th>
                                     <th class="text-end">  Facturado</th>
                                     <th class="text-end">  Abonado</th>
-                                    <th class="text-end"> Saldo Bs</th>
                                     <th class="text-end">  Saldo USD</th>
                                     <th class="text-center">  Acción</th>
                                 </tr>
