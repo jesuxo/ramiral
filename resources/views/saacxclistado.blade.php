@@ -15,7 +15,6 @@
                                     <th width="11%" align="center" class="tdlineff">NUMERO</th>
                                     <th width="11%" align="center" class="tdlineff">FACTURADO</th>
                                     <th width="11%" align="center" class="tdlineff">ABONADO</th>
-                                    <th width="11%" align="center" class="tdlineff">SALDO Bs</th>
                                     <th width="11%" align="center" class="tdlineff">SALDO USD</th>
                                 </tr>
                                 </thead>
@@ -67,14 +66,12 @@
                                         <td align="right" class="tdline">{{($cxc->credito != 0 )? number_format( $cxc->credito ,2,',','.').'  ' : ''}}</td>
                                         <td align="right" class="tdline">{{($cxc->abonado != 0 )? number_format( $cxc->abonado ,2,',','.').'  ' : ''}}</td>
                                         <td align="right" class="tdline">{{($cxc->saldo != 0 )? number_format($cxc->saldo,2,',','.'):''}}</td>
-                                        <td align="right" class="tdline">{{($cxc->saldodivisa != 0 )? number_format($cxc->saldodivisa,2,',','.'):''}}</td>
                                     </tr>
                                 @endforeach
                                 </tbody>
                                 <tfoot>
                                 <tr>
                                     <td height="30" align="left"></td>
-                                    <td align="center"></td>
                                     <td align="center"></td>
                                     <td align="center"></td>
                                     <td align="center"></td>
@@ -90,8 +87,7 @@
                                     <td align="right" class="tdline fw-bold">{{($tmonto != 0)? number_format($tmonto ,2,',','.') : ''}}</td>
                                     <td align="right" class="tdline fw-bold">{{($tabona != 0)? number_format($tabona ,2,',','.') : ''}}</td>
                                     <td align="right" class="tdline fw-bold text-danger">{{($tsaldo != 0)? number_format($tsaldo ,2,',','.') : ''}}
-                                    <input type="hidden" id="tsaldolistaod" value="{{($tsaldo != 0)? number_format($tsaldo+0,2,'.','') : ''}}">
-                                    </td>
+                                     </td>
                                     <td align="right" class="tdline fw-bold text-primary">{{($tdivis != 0)? number_format($tdivis ,2,',','.') : ''}}</td>
                                 </tr>
                                 </tfoot>
