@@ -209,7 +209,7 @@ class SaprovController extends Controller
 
         if (!$comercialModel) return;
 
-        $match = $comercialModel->match;
+        $match = $comercial;
 
         try {
             $request->validate([
@@ -300,10 +300,10 @@ class SaprovController extends Controller
 
         if (!$comercialModel) return;
 
-        $match = $comercialModel->match;
+        $match = $comercial;
 
         // Buscar otros comerciales con el mismo match
-        $otrosComerciales = Sacomercial::where('match', $match)
+        $otrosComerciales = Sacomercial::where('id', $match)
             ->where('id', '!=', $comercial)
             ->get();
 
