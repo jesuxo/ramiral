@@ -639,8 +639,6 @@ class SaprodController extends Controller
                 'descrip'    => $producto->descrip,
                 'refere'     => $producto->refere,
                 'marca'      => $producto->marca,
-                'preciodant' => $producto->preciodant ?? 0,
-                'preciodpro' => $producto->preciodpro ?? 0,
                 'preciod'    => $producto->preciod ?? 0,
                 'costod'     => $producto->costod ?? 0,
                 'costod2'    => $producto->costod2 ?? 0,

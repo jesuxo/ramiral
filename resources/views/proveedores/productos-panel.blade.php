@@ -1080,8 +1080,6 @@
                             $('#editDescrip').val(producto.descrip);
                             $('#editRefere').val(producto.refere || '');
                             $('#editMarca').val(producto.marca || '');
-                            $('#editPreciodant').val(producto.preciodant || 0);
-                            $('#editPreciodpro').val(producto.preciodpro || 0);
                             $('#editPreciod').val(producto.preciod || 0);
                             $('#editCostod').val(producto.costod || 0);
                             $('#editCostod2').val(producto.costod2 || 0);
@@ -1091,9 +1089,6 @@
 
                             // Calcular margen
                             const precioVenta = parseFloat(producto.costod || 0);
-                            const precioCosto = parseFloat(producto.preciodpro || 0);
-                            const margenCalc = precioCosto > 0 ? ((precioVenta - precioCosto) / precioCosto * 100) : 0;
-                            $('#editMargen').val(margenCalc.toFixed(1) + '%');
 
                             modal.show();
                         } else {
@@ -1158,7 +1153,6 @@
                                 fila.find('td:eq(9)').text('$' + parseFloat($('#editPreciod').val() || 0) );
                                 // Actualizar margen
                                 const precioVenta = parseFloat($('#editCostod').val() || 0);
-                                const precioCosto = parseFloat($('#editPreciodpro').val() || 0);
 
 
                             }
