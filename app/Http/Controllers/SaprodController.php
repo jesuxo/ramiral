@@ -611,6 +611,45 @@ class SaprodController extends Controller
         return response()->json(['success'=>'success', 'existencias' => $existencias]);
     }
 
+    public function getDatosEdit($codprod)
+    {
+        $comercial = session('comercialid') ?: 1;
+
+        $producto = Saprod::where('codprod', $codprod)
+            ->where('comercial', $comercial)
+            ->first();
+
+        if (!$producto) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Producto no encontrado'
+            ], 404);
+        }
+
+        // Obtener instancia
+        $instancia = Sainsta::where('codinst', $producto->codinst)
+            ->where('comercial', $comercial)
+            ->first();
+
+        return response()->json([
+            'success' => true,
+            'producto' => [
+                'id'         => $producto->id,
+                'codprod'    => $producto->codprod,
+                'descrip'    => $producto->descrip,
+                'refere'     => $producto->refere,
+                'marca'      => $producto->marca,
+                'preciodant' => $producto->preciodant ?? 0,
+                'preciodpro' => $producto->preciodpro ?? 0,
+                'preciod'    => $producto->preciod ?? 0,
+                'costod'     => $producto->costod ?? 0,
+                'costod2'    => $producto->costod2 ?? 0,
+                'costod3'    => $producto->costod3 ?? 0,
+                'instancia_descrip' => $instancia ? $instancia->descrip : 'Sin instancia'
+            ]
+        ]);
+    }
+
     public function json()
     {
         $comercial  = session('comercialid') ;

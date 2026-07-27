@@ -266,6 +266,9 @@ Route::middleware(['check.admin'])->group(function () {
         Route::post('/{id}/reordenar-imagenes', [SaprodController::class, 'reordenarImagenes'])->name('productos.imagenes.reordenar');
     });
 
+    Route::get('/productos/{codprod}/datos-edit', [SaprodController::class, 'getDatosEdit'])
+        ->name('productos.datos-edit');
+
     Route::resource('productos', \App\Http\Controllers\SaprodController::class);
     Route::controller(\App\Http\Controllers\SaprodController::class)->group(function () {
         Route::post('saprod/listprodubiccompany', 'listprodubiccompany')->name('saprod.listprodubiccompany');
