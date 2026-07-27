@@ -536,6 +536,7 @@ class SaprodController extends Controller
                 'sucursales', 'instancias', 'comercialid') );
     }
 
+
     public function existenciasphp(Request $request)
     {
         $arraysucursales = auth()->user()->getSucursalesIdsComercialActual();
@@ -584,6 +585,30 @@ class SaprodController extends Controller
                 'instanciaselected',
                 'comercial')
         )->render();
+    }
+
+    public function listprodubiccompany(Request $request)
+    {
+        $codprod    = $request->codprod;
+        $comercial  = session('comercialid') ;
+        if(!$comercial) {
+            session(['comercialid' => 1]);
+            $comercial = 1;
+        }
+
+        $allsucursa = Sasucursal::where('fk_comercial',$comercial)->get();
+        $auxsucu    = [];
+
+        foreach ($allsucursa as $sucu){
+            array_push( $auxsucu, $sucu->id);
+        }
+        $auxsucu = implode(',' , $auxsucu);
+
+        $existencias = Saexis::with('deposito')
+            ->whereRaw("fk_sucursal in ($auxsucu) and codprod='$codprod' and existen > 0")
+            ->orderBy('codubic')->get();
+
+        return response()->json(['success'=>'success', 'existencias' => $existencias]);
     }
 
     public function json()
